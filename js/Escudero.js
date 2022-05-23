@@ -5,7 +5,7 @@ export class Escudero extends Personaje {
     #maitre;
     #pelote
     constructor(name, family, age, maitre = new Luchador(), pelote) {
-        super(name, age, family)
+        super(name, family, age)
         this.#maitre = maitre;
         this.#pelote = pelote;
     }
