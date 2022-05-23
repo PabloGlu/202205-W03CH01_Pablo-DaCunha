@@ -15,5 +15,6 @@ import { arrayPersonajes } from "./personajes.js";
 function index() {
     console.log(arrayPersonajes);
     const carrusel = document.querySelector('#carrusel');
-    carrusel.innerHTML = carruselTemplate(arrayPersonajes[0].name, arrayPersonajes[0].family);
+    carrusel.innerHTML = carruselTemplate(arrayPersonajes);
+    // carrusel.innerHTML = carruselTemplate(arrayPersonajes[0].name, arrayPersonajes[0].family);
 }
