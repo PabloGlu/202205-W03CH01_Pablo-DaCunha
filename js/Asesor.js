@@ -4,7 +4,7 @@ export class Asesor extends Personaje {
     #advised;
     
     constructor(name, family, age, advised = new Personaje) {
-        super(name, age, family)
+        super(name, family, age)
         this.#advised = advised;
         
     }

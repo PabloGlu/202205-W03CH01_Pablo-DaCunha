@@ -5,12 +5,12 @@ import { Rey } from "./Rey.js";
 import { Asesor } from "./Asesor.js";
 // import { compileString } from "sass";
 
-const arrayPersonajes = [
+export const arrayPersonajes = [
 
 ]
 
 arrayPersonajes.push(new Rey 
-    ('Joffrey', 'Baratheon', 14, 1)
+    ('Joffrey',14, 'Baratheon',  1)
     );
 
 arrayPersonajes.push(new Luchador 
@@ -28,4 +28,4 @@ arrayPersonajes.push(new Escudero
     ('Bronn', 'BlackWater', 29, arrayPersonajes[1], 5)
     );
     
-console.log(arrayPersonajes)
+// console.log(arrayPersonajes)
